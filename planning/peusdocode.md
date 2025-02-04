@@ -42,6 +42,15 @@ ELSE IF user input is 2:
         CONVERT the input to a string, removing commas
 
         UPDATE table/file
+    
+    ELSE IF user input is 3:
+        DELETE current gatcha
+
+        GET user input for gatcha banner name
+        IF it matches an entry:
+            DELETE the row
+        
+        UPDATE CSV/database
 
 ELSE IF user input is 3:
     PRINT record gatcha menu
