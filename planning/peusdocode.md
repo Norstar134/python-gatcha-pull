@@ -25,17 +25,17 @@ ELSE IF user input is 1:
         WRITE/INSERT into file/table
 
 ELSE IF user input is 2:
-    PRINT gatcha menu
+    PRINT banner menu
 
     IF user inputs 0:
         RETURN to main menu
 
     ELSE IF user input is 1:
-        GET current gatcha
-        PRINT gatcha
+        GET current banners
+        PRINT banners
 
     ELSE IF user input is 2:
-        UPDATE current gatcha
+        UPDATE current banners
         
         GET user input for gatcha banner name
         GET user input for all character up rates
@@ -44,7 +44,7 @@ ELSE IF user input is 2:
         UPDATE table/file
     
     ELSE IF user input is 3:
-        DELETE current gatcha
+        DELETE current banner
 
         GET user input for gatcha banner name
         IF it matches an entry:
