@@ -1,4 +1,4 @@
-## Rough unnormalised database
+## Rough unnormalised database - Limited Banners
 
 | character_id (KEY)    | character_name  | character_rank    | character_path  | character_element | gatcha_banner | versions | pull amount   |
 |-----------------------|-----------------|-------------------|-----------------|-------------------|---------------|----------|------|
@@ -36,3 +36,84 @@
 
 ## 1NF
 
+* There are only single valued attributes
+* Attribute Domain does not change
+* There is a unique name for every Attribute/Column
+* The order in which data is stored does not matter
+
+| character_id (KEY)    | character_name  | character_rank    | character_path  | character_element | gatcha_banner | versions | pull amount   |
+|-----------------------|-----------------|-------------------|-----------------|-------------------|---------------|----------|------|
+| 1 | Seele | 5 star | The Hunt | Quantum | Butterfly on Swordtip | 1.0 | 0
+| 1 | Seele | 5 star | The Hunt | Quantum | Butterfly on Swordtip | 1.4 | 0
+| 2 | Jing Yuan | 5 Star | Erudition | Lightning | Swirl of Heavenly Spear | 1.0 | 10
+| 2 | Jing Yuan | 5 Star | Erudition | Lightning | Swirl of Heavenly Spear | 2.0 | 10
+| 2 | Jing Yuan | 5 Star | Erudition | Lightning | Swirl of Heavenly Spear | 2.7 | 10
+| 3 | Silver Wolf | 5 Star | Nihility | Quantum | Contract Zero | 1.1 |  0
+| 3 | Silver Wolf | 5 Star | Nihility | Quantum | Contract Zero | 3.0 |  0
+| 4 | Luocha | 5 Star | Abundance | Imaginary | Laic Pursuit | 1.1 | 0
+| 4 | Luocha | 5 Star | Abundance | Imaginary | Laic Pursuit | 2.1 | 0
+| 5 | Blade | 5 Star | Destruction | Wind | A Lost Soul | 1.2 | 0
+| 5 | Blade | 5 Star | Destruction | Wind | A Lost Soul | 1.6 | 0
+...
+
+## 2NF
+
+* Tables must be in 1NF
+* Table must not have partial dependencies
+
+### Character Table
+
+| character_id (KEY) | character_name | character_rank | character_path | character_element |
+|--------------|----------------|----------------|----------------|-------------------|
+| 1 | Seele | 5 star | The Hunt | Quantum |
+| 2 | Jing Yuan | 5 Star | Erudition | Lightning |
+| 3 | Silver Wolf | 5 Star | Nihility | Quantum |
+| 4 | Luocha | 5 Star | Abundance | Imaginary |
+| 5 | Blade | 5 Star | Destruction | Wind  |
+...
+
+### Banner Table
+
+| banner_id (KEY) | character_id (FOREIGN KEY) | banner_name | versions | pull_amount |
+|-----------|-------------|-------------|----------|-------------|
+| 1 | 1 | Butterfly on Swordtip | 1.0 | 0
+| 1 | 1 | Butterfly on Swordtip | 1.4 | 0
+| 2 | 2 | Swirl of Heavenly Spear | 1.0 | 10
+| 2 | 2 | Swirl of Heavenly Spear | 2.0 | 10
+| 2 | 2 | Swirl of Heavenly Spear | 2.7 | 10
+| 3 | 3 | Contract Zero | 1.1 | 0
+| 3 | 3 | Contract Zero | 3.0 | 0
+| 4 | 4 | Laic Pursuit | 1.1 | 0
+| 4 | 4 | Laic Pursuit | 2.1 | 0
+| 5 | 5 | A Lost Soul | 1.2 | 0
+| 5 | 5 | A Lost Soul | 1.6 | 0
+...
+
+## 3NF
+
+* Must be in 1st and 2nd NF
+* No non-primary-key attribute is transitively dependent on the primary key
+
+| character_name (KEY) | character_rank | character_path | character_element |
+|----------------------|----------------|----------------|-------------------|
+| Seele | 5 star | The Hunt | Quantum |
+| Jing Yuan | 5 Star | Erudition | Lightning |
+| Silver Wolf | 5 Star | Nihility | Quantum |
+| Luocha | 5 Star | Abundance | Imaginary |
+| Blade | 5 Star | Destruction | Wind  |
+...
+
+| banner_id (KEY) | character_name (FOREIGN KEY) | banner_name | versions | pull_amount |
+|-----------|-------------|-------------|----------|-------------|
+| 1 | Seele | Butterfly on Swordtip | 1.0 | 0
+| 1 | Seele | Butterfly on Swordtip | 1.4 | 0
+| 2 | Jing Yuan | Swirl of Heavenly Spear | 1.0 | 10
+| 2 | Jing Yuan | Swirl of Heavenly Spear | 2.0 | 10
+| 2 | Jing Yuan | Swirl of Heavenly Spear | 2.7 | 10
+| 3 | Silver Wolf | Contract Zero | 1.1 | 0
+| 3 | Silver Wolf | Contract Zero | 3.0 | 0
+| 4 | Luocha | Laic Pursuit | 1.1 | 0
+| 4 | Luocha | Laic Pursuit | 2.1 | 0
+| 5 | Blade | A Lost Soul | 1.2 | 0
+| 5 | Blade | A Lost Soul | 1.6 | 0
+...
