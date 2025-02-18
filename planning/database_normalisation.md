@@ -9,7 +9,7 @@
 | 5 | Blade | 5 Star | Destruction | Wind | A Lost Soul | 1.2, 1.6 | 0
 | 6 | Kafka | 5 Star | Nihility | Lightning | Nessun Dorma | 1.2, 1.6, 2.5 | 0
 | 7 | Dan Heng IL | 5 Star | Destruction | Imaginary | Epochal Spectrum | 1.3, 2.0, 2.6 | 0
-| 8 | Fu Xuan | 5 Star | Preservation | Quantum | Forseen, Foreknown, Foretold | 1.3, 2.2 | 0
+| 8 | Fu Xuan | 5 Star | Preservation | Quantum | Foreseen, Foreknown, Foretold | 1.3, 2.2 | 0
 | 9 | Jingliu | 5 Star | Destruction | Ice | Gentle Eclipse of the Moon | 1.4, 2.1 | 0
 | 10 | Topaz & Numby | 5 Star | The Hunt | Fire | Sunset Clause | 1.4, 2.2  2.5 | 50
 | 11 | Huohuo | 5 Star | Abundance | Wind | Bloom in Gloom | 1.5, 2.4 | 0
@@ -24,7 +24,7 @@
 | 20 | Boothill | 5 Star | The Hunt | Physical | Dusty Trail's Lone Star | 2.2, 3.0 | 0
 | 21 | Firefly | 5 Star | Destruction | Fire | Firefull Flyshine | 2.3, 2.7 | 0
 | 22 | Jade | 5 Star | Erudition | Quantum | Lien on Life, Lease on Fate | 2.3, 3.0 | 0
-| 23 | Yunli | 5 Star | Destruction | Physcial | Earth Hurled, Ether Curled | 2.4 | 0
+| 23 | Yunli | 5 Star | Destruction | Physical | Earth Hurled, Ether Curled | 2.4 | 0
 | 24 | Jiaoqiu | 5 Star | Nihility | Fire | Cauldron Contrivance | 2.4 | 0
 | 25 | Feixiao | 5 Star | The Hunt | Wind | Stormrider's Bolt | 2.5, 3.0 | 0
 | 26 | Lingsha | 5 Star | Abundance | Fire | Let Scent Sink In | 2.5, 3.0 | 0
