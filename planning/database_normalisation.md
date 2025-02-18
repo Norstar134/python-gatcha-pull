@@ -7,7 +7,7 @@
 | 3 | Silver Wolf | 5 Star | Nihility | Quantum | Contract Zero | 1.1, 3.0 |  0
 | 4 | Luocha | 5 Star | Abundance | Imaginary | Laic Pursuit | 1.1, 2.1 | 0
 | 5 | Blade | 5 Star | Destruction | Wind | A Lost Soul | 1.2, 1.6 | 0
-| 6 | Kafka | 5 Star | Nihility | Lightning | Indelible Coterie | 1.2, 1.6, 2.5 | 0
+| 6 | Kafka | 5 Star | Nihility | Lightning | Nessun Dorma | 1.2, 1.6, 2.5 | 0
 | 7 | Dan Heng IL | 5 Star | Destruction | Imaginary | Epochal Spectrum | 1.3, 2.0, 2.6 | 0
 | 8 | Fu Xuan | 5 Star | Preservation | Quantum | Forseen, Foreknown, Foretold | 1.3, 2.2 | 0
 | 9 | Jingliu | 5 Star | Destruction | Ice | Gentle Eclipse of the Moon | 1.4, 2.1 | 0
@@ -16,7 +16,7 @@
 | 12 | Argenti | 5 Star | Erudition | Physical | Thorns of Scented Crown | 1.5, 2.3 | 0
 | 13 | Ruan Mei | 5 Star | Harmony | Ice | Floral Triptych | 1.6, 2.3 | 0
 | 14 | Dr. Ratio | 5 Star | The Hunt | Imaginary | Panta Rhei | 1.6 | 0
-| 15 | Black Swan | 5 Star | Nihility | Wind | Indelible Coterie | 2.0, 2.5 | 0
+| 15 | Black Swan | 5 Star | Nihility | Wind | Ripples in Reflection | 2.0, 2.5 | 0
 | 16 | Sparkle | 5 Star | Harmony | Quantum | Sparkling Splendor | 2.0, 2.4 | 0
 | 17 | Acheron | 5 Star | Nihility | Lightning | Words of Yore | 2.1, 2.6 | 0
 | 18 | Adventurine | 5 Star | Preservation | Imaginary | Gilded Imprisonment | 2.1, 2.6 | 0
