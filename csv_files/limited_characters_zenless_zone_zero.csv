@@ -1,15 +1,16 @@
 character_name,character_rank,character_attribute,character_specialty,faction,gatcha_banner,versions,pull_amount
-Ellen, S, Ice, Attack, Victora Housekeeping, Mellow Waveride, "1.0, 1.5", 0
-Zhu Yuan, S, Ether, Attack, Criminal Investigation Team, Unswerving Bullet, "1.0, 1.6", 0
-Qingyi, S, Electric, Stun, Criminal Investigation Team, Untainted Jade, "1.1, 1.5", 0
-Jane Doe, S, Physical, Anomaly, Criminal Investigation Team, No Match Found, 1.1, 0
-Caesar, S, Physical, Defence, Sons of Calydon, Ember-Crowned Overlord, 1.2, 0
-Burnice, S, Fire, Anomaly, Sons of Calydon, Born to Burn, "1.2, 1.6", 0
-Tsukishiro Yanagi, S, Electric, Anomaly, Section 6, Moonlit Serenity, 1.3, 0
-Lighter, S, Fire, Stun, Sons of Calydon, Champion of Embers, 1.3, 0
-Hoshimi Miyabi, S, Ice, Anomaly, Section 6, Honed Blade of Reflection, 1.4, 0
-Asaba Harumasa, S, Electric, Attack, Section 6, Per Aspera, 1.4, 0
-Astra Yao, S, Ether, Support, Stars of Lyra, Thousand Melodies, 1.5, 0
-Evelyn Chevalier, S, Fire, Attack, Stars of Lyra, Web of Light, 1.5, 0
-Silver Soldier Anby, S, Electric, Attack, Silver Squad, Electric Reflection, 1.6, 0
-Trigger, S, Electric, Stun, Silver Squad, Out of Sight, 1.6, 0
+Ellen,S,Ice,Attack,Victora Housekeeping,Mellow Waveride,"1.0, 1.5",0
+Zhu Yuan,S,Ether,Attack,Criminal Investigation Team,Unswerving Bullet,"1.0, 1.6",0
+Qingyi,S,Electric,Stun,Criminal Investigation Team,Untainted Jade,"1.1, 1.5",0
+Jane Doe,S,Physical,Anomaly,Criminal Investigation Team,No Match Found,1.1,0
+Caesar,S,Physical,Defence,Sons of Calydon,Ember-Crowned Overlord,1.2,0
+Burnice,S,Fire, Anomaly,Sons of Calydon,Born to Burn,"1.2, 1.6",0
+Tsukishiro Yanagi,S,Electric,Anomaly,Section 6,Moonlit Serenity,1.3,0
+Lighter,S,Fire,Stun,Sons of Calydon,Champion of Embers,1.3,0
+Hoshimi Miyabi,S,Ice,Anomaly,Section 6,Honed Blade of Reflection,1.4,0
+Asaba Harumasa,S,Electric,Attack,Section 6,Per Aspera,1.4,0
+Astra Yao,S,Ether,Support,Stars of Lyra,Thousand Melodies,1.5,0
+Evelyn Chevalier,S,Fire,Attack,Stars of Lyra,Web of Light,1.5,0
+Silver Soldier Anby,S,Electric,Attack,Silver Squad,Electric Reflection,1.6,0
+Trigger,S,Electric,Stun,Silver Squad,Out of Sight,1.6,0
+Hugo Vlad,S,Ice,Unknown,Mockingbird,Unknown,1.7,0
